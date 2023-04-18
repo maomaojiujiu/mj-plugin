@@ -1,0 +1,25 @@
+{
+    "name" : "MJ美化插件",
+    "slug" : "zibll_Add_ons",
+    "homepage" : "https://csxandlsy.xyz/mjplugin",
+    "download_url" : "https://csxandlsy.xyz/wp-content/uploads/mj/new.zip",
+    "requires_php" : "7.3",
+    "version" : "3.9.0",
+    "requires" : "6.0.3",
+    "tested" : "6.0.2",
+    "last_updated" : "2022-10-22 20:47:45",
+    "author" : "猫玖鱼柒",
+    "author_homepage" : "https://csxandlsy.xyz/",
+    "sections" : {
+        "description" : "MJ美化插件，是由猫玖鱼柒工作室研发的一款美化插件，致力于子比主题的美化。这款美化插件包含内容众多，一键美化，简单实用且持续更新。感谢猫玖鱼柒工作室中的每位贡献者！<br>大致内容如下：<br><br><img src='https://csxandlsy.xyz/wp-content/uploads/2022/10/12819j-e1665982433614.png'/><img src='https://csxandlsy.xyz/wp-content/uploads/2022/10/090ia-e1665982812546.png'/>",
+        "installation" : "Upload the plugin to your blog, Activate it, that's it!",
+		"changelog" : "<b>V-3.9.0</b><br>插件开源<br><b>V-3.8.2<b/><br>更新时间：2022年11月11日<br>更新内容：<ol><li>紧急修复了授权因SSL验证不通过导致的授权错误的bug！若不能更新，请复制此链接下载最新版本：<br>https://csxandlsy.xyz/wp-content/uploads/mj/new.zip</li></ol>V-3.8.1<b/><br>更新时间：2022年11月10日<br>更新内容：<ol><li>紧急修复了网站加载速度问题</li></ol><b>V-3.8.0<b/><br>更新时间：2022年11月10日<br>更新内容：<ol><li>修复网站底部运行时间位置异常的问题</li><li>新增ZibllPAY插件内容</li><li>新增Oreo 2.0授权系统内容</li><li>新增用户在线自主授权及修改授权的功能</li><li>新增授权商功能</li></ol>V-3.7.8<br>更新时间：2022年10月25日<br>更新内容：<ol><li>新增网站底部广告</li><li>新增Ctrl+D收藏本站提示</li><li>新增网站底部运行时间</li><li>修复了授权问题</li><li>修复了部分bug</li></ol>V-3.7.7<br>更新时间：2022年10月22日<br>更新内容：<ol><li>优化了网站加载速度</li><li>优化了授权</li><li>修复了部分bug</li></ol>V-3.7.6<br>更新时间：2022年10月22日<br>更新内容：<ol><li>优化了插件后台布局</li><li>优化了网站加载速度</li><li>新增title自定义</li></ol>V-3.7.5<br>更新时间：2022年10月21日<br>更新内容：<ol><li>修复了底部导航栏链接问题</li></ol>V-3.7.4<br>更新时间：2022年10月20日<br>更新内容：<ol><li>修复了授权问题</li><li>新增网站底部蒲公英动态特效</li><li>完善了新框架的内容</li><li>新增鼠标点击特效</li><li>新增禁止选中的功能</li><li>优化了F12禁用的功能</li><li>新增禁止Ctrl+S保存网页的功能</li></ol>V-3.7.2<br>更新时间：2022年10月17日<br>更新内容：<ol><li>该版本作为正式版本发布</li><li>新增用户自定义功能，可自定义背景，文案，字体，鼠标皮肤，导航栏背景</li><li>完善了新框架的内容</li><li>修复了手机侧边栏背景显示问题</li><li>修复了其他已知bug</li><li>优化了网站加载的速度</li></ol>V-3.7.1<br>更新时间：2022年10月14日<br>更新内容：<ol><li>该版本为新框架内测版本</li><li>诸多功能尚在测试阶段</li><li>新增了浏览器后台打印插件版权的内容：MJ美化插件——提供主题美化服务</li></ol>V-3.7.0<br>更新时间：2022年10月13日<br>更新内容：<ol><li>重构了美化插件的框架</li><li>修复了文章标题美化的bug</li><li>修复了浏览器标签显示错误的bug</li><li>修复了其他位置bug</li></ol>V-3.6.2<br>更新时间：2022年10月10日<br>更新内容：<ol><li>修复音乐播放器不能显示的bug</li><li>修复网站LOGO及底部二维码滤镜显示问题</li><li>优化网站LOGO颜色变换滤镜动画，详情见：网站LOGO滤镜——hue-rotate 色相动画</li></ol>V-3.6.1<br>更新时间：2022年10月10日<br>更新内容:<ol><li>优化授权页面显示</li><li>优化授权加密</li></ol>V-3.6.0<br>更新时间：2022年10月10日<br>更新内容:<ol><li>添加在线更新推送功能，使插件更加正式，以后版本即可手动更新</li><li>采用新算法加密插件核心文件，避免因sg11加密所以发的众多问题</li><li>重新优化了插件后台UI页面，并且适配了手机端，使之变得更加美观</li><li>插件内部结构优化、追求极致的网站加载速度，本次更新将大幅度提升网站加载速度</li><li>新增并优化了网站字体，将字体加载速度做到了极致</li><li>新增自定义部分美化小部件的功能</li><li>新增底部二维码滤镜和网站logo滤镜</li><li>新增网站在线播放器，播放音乐不受刷新页面或打开新页面影响</li><li>优化评论区背景图片</li><li>新增导航栏标题样式美化</li><li>新增两款复制提示弹窗</li><li>优化了背景“符号元素”所存在的问题</li><li>新增并优化了其他存在的问题</li></ol>V-3.5.0<br>更新时间：2022年10月01日<br>更新内容：<ol><li>重新优化了UI框架，使之变得更加美观</li><li>新增授权处理，防止不法商低价贩卖，修改版权等恶劣行为</li><li>修复了部分美化小部件显示问题的bug</li><li>重新优化了导航栏皮肤</li><li>优化了部分美化小部件功能图片预览</li><li>新增简单的底部导航功能</li><li>新增插件广告宣传区域</li></ol>V-3.4.0<br>更新时间：2022年09月08日<br>更新内容：<ol><li>重新优化了UI框架，使之变得更加美观</li><li>优化了插件配置页面各组件的显示问题</li><li>修复了部分美化小部件显示问题的bug</li><li>新增电脑端动态背景——五彩斑斓</li><li>优化了部分美化小部件功能图片预览</li><li>新增满屏枫叶飘落特效</li><li>新增禁止图片拖放</li><li>新增鼠标右键个性菜单</li><li>新增复制网站内容添加原文地址</li><li>新增底部可爱底线</li><li>新增网站随机背景音乐</li></ol>V-3.3.2<br>更新时间：2022年08月24日<br>更新内容：<ol><li>重新修复了fps帧率问题</li><li>修复了首页文章使用隐藏时间功能后分类聚合卡片中文章列表不显示的bug</li><li>修复了樱花特效</li><li>修复了日间、夜间切换时不出现提示的bug</li><li>重新优化了特效js代码的存储位置</li><li>新增了粒子特效</li><li>新增两款鼠标跟随皮肤</li><li>新增左侧联系站长QQ和随机文章功能</li><li>优化了导航栏皮肤（后续版本会适配电脑和手机端）</li></ol>V-3.2.2<br>更新时间：2022年08月22日<br>更新内容：<ol><li>修复并优化fps帧率</li><li>重新优化显示布局</li><li>新增五款导航栏皮肤</li><li>新增两款电脑背景，两款手机背景，两款手机侧边栏背景</li><li>新增六款鼠标皮肤</li><li>新增文章ajax加载美化</li></ol>V-3.1.0<br>更新时间：2022年08月06日<br>更新内容：<ol><li>新增网站字体</li><li>LOGO扫光</li><li>网站背景</li><li>底部波浪</li><li>顶部动态标签</li><li>头像呼吸光环</li></ol>V-2.1.0<br>更新时间：2022年07月26日<br>更新内容：<ol><li>网站字体切换</li><li>导航栏字体加粗</li><li>顶部彩色进度条</li><li>右侧彩色进度条</li><li>幻灯片指示器优化</li><li>禁止F12功能</li></ol>V-1.0.0<br>更新时间：2022年07月10日<br>更新内容：<ol><li>插件命名为MJ美化插件</li><li>收集各种网站美化教程在插件中集合</li></ol>"
+    },
+    "banners" : {
+		"low" : "https://csxandlsy.xyz/wp-content/uploads/2022/10/mjlogo.jpg"
+	},
+	"screenshots" : "<ol><li><a href='https://csxandlsy.xyz/wp-content/uploads/2022/09/say8-1.jpg' target='_blank'><img src='https://csxandlsy.xyz/wp-content/uploads/2022/09/say8-1.jpg' alt='CAPTION' /></a><p>CAPTION</p></li></ol>",
+	"active_installs" :"674"
+
+
+}

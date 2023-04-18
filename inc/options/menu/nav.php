@@ -1,0 +1,171 @@
+<?php
+CSF::createSection($prefix, array(
+        'id'    => 'mjnav',
+        'title' => '导航美化',
+        'icon'  => 'fa fa-tasks',
+    ));
+       CSF::createSection($prefix, array(
+        'parent'      => 'mjnav',
+        'title'       => 'LOGO滤镜',
+        'icon'        => 'fa fa-spinner',
+        'description' => '',
+        'default'   =>true,
+        'fields'      => array(
+            array(
+                'style'   => 'warning',
+                'type'    => 'submessage',
+            ), 
+             array(
+                'title'   => 'logo扫光',
+                'label'   => '让你的网站logo焕然一新！',
+                'id'      => 'logoflash',
+                'default' => false,
+                'type'    => 'switcher',
+            ),
+              array(
+                'title'   => 'hue-rotate 色相动画',
+                'label'   => '网站LOGO将会进行动态色彩渐变',
+                'id'      => 'logo1',
+                'default' => false,
+                'type'    => 'switcher',
+            ),
+             array(
+                'title'   => 'invert 反色',
+                'label'   => '网站LOGO的色彩将进行反色处理，可以看效果喔~',
+                'id'      => 'logo2',
+                'default' => false,
+                'type'    => 'switcher',
+            ),
+             array(
+                'title'   => 'drop-shadow 阴影',
+                'label'   => '网站LOGO将会被添加一个克莱因蓝色柔光背景',
+                'id'      => 'logo3',
+                'default' => false,
+                'type'    => 'switcher',
+            ),
+      ),));
+       CSF::createSection($prefix, array(
+        'parent'      => 'mjnav',
+        'title'       => '导航栏内容',
+        'icon'        => 'fa fa-bar-chart',
+        'description' => '',
+        'default'   =>true,
+        'fields'      => array(
+            array(
+                'style'   => 'warning',
+                'type'    => 'submessage',
+            ), 
+            array(
+                'title'   => '导航字体加粗',
+                'label'   => '让你的导航栏更加醒目！',
+                'id'      => 'navbarb',
+                'default' => false,
+                'type'    => 'switcher',
+            ),
+            array(
+                'title'   => '标题样式美化',
+                'label'   => '导航栏标题将简化主题自带的标题hover效果',
+                'id'      => 'navbiaoti',
+                'default' => false,
+                'type'    => 'switcher',
+            ),
+             array(
+                'title'   => '禁用搜索功能',
+                'label'   => '禁用导航栏顶部的搜索功能',
+                'id'      => 'nosearch',
+                'default' => false,
+                'type'    => 'switcher',
+            ),
+             array(
+                'title'   => 'FPS帧率显示',
+                'label'   => '网站LOGO左侧显示一个实时的FPS帧率',
+                'id'      => 'FPS',
+                'default' => false,
+                'type'    => 'switcher',
+            ),
+       ),));
+       
+       CSF::createSection($prefix, array(
+        'parent'      => 'mjnav',
+        'title'       => '导航栏背景',
+        'icon'        => 'fa fa-yelp',
+        'description' => '',
+        'default'   =>true,
+        'fields'      => array(
+            array(
+                'style'   => 'warning',
+                'type'    => 'submessage',
+            ), 
+             array(
+                'title'   => ' ',
+                'label'   => '【童年飞机】',
+                'id'      => 'navbg1',
+                'default' => false,
+                'type'    => 'switcher',
+            ),
+             array(
+                'title'   => ' ',
+                'label'   => '【紫色薰衣】',
+                'id'      => 'navbg2',
+                'class'    =>'compact',
+                'default' => false,
+                'type'    => 'switcher',
+            ),
+             array(
+                'title'   => ' ',
+                'label'   => '【三生桃花】',
+                'id'      => 'navbg3',
+                'class'    =>'compact',
+                'default' => false,
+                'type'    => 'switcher',
+            ),
+             array(
+                'title'   => ' ',
+                'label'   => '【万里山河】',
+                'id'      => 'navbg4',
+                'class'    =>'compact',
+                'default' => false,
+                'type'    => 'switcher',
+            ),
+             array(
+                'title'   => ' ',
+                'label'   => '【环游动漫】',
+                'id'      => 'navbg5',
+                'class'    =>'compact',
+                'default' => false,
+                'type'    => 'switcher',
+            ),
+             array(
+                'title'   => ' ',
+                'label'   => '【浪漫爱心】',
+                'id'      => 'navbg6',
+                'class'    =>'compact',
+                'default' => false,
+                'type'    => 'switcher',
+            ),
+             array(
+                'title'   => ' ',
+                'label'   => '【蜜桔海滩】',
+                'id'      => 'navbg7',
+                'class'    =>'compact',
+                'default' => false,
+                'type'    => 'switcher',
+            ),
+            array(
+                'title'   => '自定义导航栏皮肤',
+                'label'   => '开启后可自定义导航栏皮肤',
+                'id'      => 'usernavbg8',
+                'type'    => 'switcher',
+            ),
+             array(
+                'title'   => ' ',
+                'desc'    =>'请上传自定义导航栏背景图片或填写图片地址，注意尺寸为：1800px*80px',
+                'dependency' => array('usernavbg8', '!=', ''),
+                'id'       => 'usernavbg88',
+                'class'    =>'compact',
+                'default' => false,
+                'preview' => true,
+                'library' => 'image', 
+                'type'    => 'upload',
+            ),
+       ),));

@@ -1,0 +1,135 @@
+.kuakua-first-box{
+    margin: auto;
+    width: 440px;
+    border-radius: 16px;
+    bottom: auto;
+    min-height: 10rem;
+    left: 50%;
+    position: fixed;
+    right: auto;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    z-index: 1032;
+    box-shadow: 0px 0px 20px #0000001f;
+    display: none;
+}
+@media screen and (max-width: 500px){.kuakua-first-box{width:94%;}}
+.kuakua-ei{
+    border-radius: 4px;
+    overflow: inherit;
+}
+.kuakua-close{
+    z-index: 9999;
+    right: 14px !important;
+    display: flex;
+    position: absolute;
+    right: 8px;
+    top: 4px;
+    padding: 16px;
+    cursor: pointer;
+}
+.kuakua-column{
+    position: absolute;
+    width: 298px;
+    height: auto;
+    top: -28px;
+    left: 0px;
+    right: 0px;
+    z-index: 6000;
+    background: url(//21lhz.cn/cdn/kua-ribbon.png) 0% 0% / 298px 83px no-repeat;
+    margin: 0 auto;
+    text-align: center;
+}
+.kuakua-headerIcon{
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    padding: 6px;
+    background-color: rgb(255, 255, 255);
+    width: 78px;
+    height: 78px;
+    margin: 0 auto;
+}
+.kuakua-icon{
+    width: 60px !important;
+    height: 60px !important;
+    fill: currentcolor;
+    transition: transform 0.3s ease 0s;
+    cursor: pointer;
+}
+.kuakua-headerTitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+.kuakua-modal-body{
+    position: relative;
+    background-color: transparent;
+    text-align: center;
+    border-bottom: none;
+    border-top: none;
+    border-radius: 0px;
+    box-shadow: none;
+    padding: 65px 30px 20px 30px;
+}
+.kuakua-contentBox{
+    width: 100%;
+    min-height: 102px;
+    padding: 15px 20px;
+    margin-top: 20px;
+    border-radius: 0;
+    box-sizing: border-box;
+    position: relative;
+    background-color: rgb(244, 244, 244);
+    text-align: center;
+    border-bottom: none;
+    border-top: none;
+    box-shadow: none;
+}
+.kuakua-comment{
+    margin-bottom: 10px;
+    line-height: 26px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    word-break: break-all;
+    transition: all 0s ease 0s;
+    color: rgb(68, 68, 68);
+    font-size: 18px;
+}
+.kuakua-cancelBtn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(102, 102, 102);
+    border: none;
+    border-radius: 36px;
+    transition: all 0.3s ease 0s;
+    padding: 4px;
+    width: 80px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.kuakua-confirmBtn{
+    background: rgb(255, 227, 0);
+    width: 118px;
+    height: 36px;
+    display: inline-block;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: rgb(255, 227, 0);
+    color: rgb(68, 68, 68);
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.form-control:focus {
+    border: 1px solid rgb(148 148 148) !important;
+    box-shadow: none !important;
+}
